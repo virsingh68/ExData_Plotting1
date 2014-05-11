@@ -1,0 +1,8 @@
+setwd("/Users/virsingh/Downloads")
+power<-read.table("household_power_consumption.txt", sep=";",header=TRUE,na.string="?")
+power$Date<-as.Date(power$Date,"%d/%m/%Y")
+power_range<-subset(power,power$Date>=as.Date("2007-02-01") & power$Date<=as.Date("2007-02-02"))
+par(mar=c(8,6,2,2))
+hist(as.numeric(power_range$Global_active_power),col="red",xlab="Global Active Power(kilowatts)",main="Global Active Power")
+dev.copy(png,"plot1.png",height=480,width=480)
+dev.off()

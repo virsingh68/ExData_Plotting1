@@ -13,7 +13,7 @@ with(power_range, {
     plot(Date_Time,Sub_metering_1,type='l',ylab="Energy Sub metering",xlab="" )
     lines(power_range$Date_Time,power_range$Sub_metering_2,col="red")
     lines(power_range$Date_Time,power_range$Sub_metering_3,col="blue")
-    legend("topright",lty=1,bty="n",text.font=.5,col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+    legend("topright",inset=.05,lty=1,bty="n",text.font=.5,col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
   }
 plot(Date_Time,Global_reactive_power,type='l')
 })

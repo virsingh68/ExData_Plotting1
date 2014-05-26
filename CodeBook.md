@@ -1,4 +1,4 @@
-## This is a  code book file for Getting and Cleaning Data Project
+## Getting and Cleaning Data Project
 ### We used following process to prepared meregd data in file merged_data.text
 * Read traing X data storaed in X_train.txt
 * Read Activity data stored in y_train.txt
@@ -12,5 +12,5 @@
 * Write tidy data set to merged_data.txt file
 
 ### In order to take mean and std variable from tidy data set, read feature.txt file
-### and found column position for mean and std variables. Subsetted the data based on
-### column position and written to a file meanStdData.txt.
+and found column position for mean and std variables. Subsetted the data based on
+column position and written to a file meanStdData.txt.

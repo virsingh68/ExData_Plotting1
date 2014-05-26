@@ -11,6 +11,6 @@
 * join Activity Labels with merged data
 * Write tidy data set to merged_data.txt file
 
-### In order to take mean and std variable from tidy data set, read feature.txt file
+* In order to take mean and std variable from tidy data set, read feature.txt file
 and found column position for mean and std variables. Subsetted the data based on
 column position and written to a file meanStdData.txt.
